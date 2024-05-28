@@ -4,7 +4,7 @@ provider "google" {
   zone    = "us-central1-c"
 }
 resource "google_storage_bucket" "static-site" {
-  name          = "image-store.com"
+  name          = "tony-test"
   location      = "EU"
   force_destroy = true
 
